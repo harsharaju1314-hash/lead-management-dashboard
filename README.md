@@ -1,77 +1,119 @@
-# Lead Management Dashboard
+<h1 style="color:#1f6feb;">Lead Management Dashboard</h1>
 
+<p>
 This project is a Lead Management Dashboard developed as part of an assignment.
+</p>
 
-## Tech Stack
-- Backend: Node.js, Express.js
-- Database: MongoDB (Local – MongoDB Compass)
-- Frontend: React (Vite)
-- ODM: Mongoose
+<hr/>
 
-## Project Structure
+<h2 style="color:#1f6feb;">Tech Stack</h2>
+
+<ul>
+  <li><b>Backend:</b> Node.js, Express.js</li>
+  <li><b>Database:</b> MongoDB (Local – MongoDB Compass)</li>
+  <li><b>Frontend:</b> React (Vite)</li>
+  <li><b>ODM:</b> Mongoose</li>
+</ul>
+
+<hr/>
+
+<h2 style="color:#1f6feb;">Project Structure</h2>
+
+<pre>
 lead-management-dashboard/
 │
 ├── backend/
-│ ├── controllers/
-│ ├── models/
-│ ├── routes/
-│ ├── seed/
-│ ├── server.js
-│ └── package.json
+│   ├── controllers/
+│   ├── models/
+│   ├── routes/
+│   ├── seed/
+│   ├── server.js
+│   └── package.json
 │
 ├── frontend/
-│ ├── src/
-│ ├── index.html
-│ └── package.json
+│   ├── src/
+│   ├── index.html
+│   └── package.json
 │
 └── README.md
+</pre>
 
-## Features
-- REST API for managing leads
-- Pagination support in backend API
-- MongoDB integration using Mongoose
-- React frontend setup using Vite
+<hr/>
 
-## Backend Setup
-```bash
+<h2 style="color:#1f6feb;">Features</h2>
+
+<ul>
+  <li>REST API for managing leads</li>
+  <li>Pagination support in backend API</li>
+  <li>MongoDB integration using Mongoose</li>
+  <li>React frontend using Vite</li>
+</ul>
+
+<hr/>
+
+<h2 style="color:#1f6feb;">Backend Setup</h2>
+
+<pre>
 cd backend
 npm install
 node server.js
+</pre>
 
-Server runs on:
+<p><b>Backend runs on:</b></p>
+
+<pre>
 http://localhost:5000
+</pre>
 
-API Example:
+<p><b>API Example:</b></p>
+
+<pre>
 GET /api/leads?page=1&limit=10
+</pre>
 
-## Frontend Setup
+<hr/>
 
+<h2 style="color:#1f6feb;">Frontend Setup</h2>
+
+<pre>
 cd frontend
 npm install
 npm run dev
+</pre>
 
-Frontend runs on:
-arduino
+<p><b>Frontend runs on:</b></p>
+
+<pre>
 http://localhost:5173
-Database
-MongoDB is connected locally using MongoDB Compass
+</pre>
 
-Database runs on:
+<hr/>
+
+<h2 style="color:#1f6feb;">Database</h2>
+
+<ul>
+  <li>MongoDB is connected locally using MongoDB Compass</li>
+  <li>Connection URL:</li>
+</ul>
+
+<pre>
 mongodb://127.0.0.1:27017
+</pre>
 
+<hr/>
 
-## Notes
-.env file is excluded from GitHub for security
-node_modules is ignored using .gitignore
-Sample data can be added using the seed script
+<h2 style="color:#1f6feb;">Notes</h2>
 
-## Author
-Harshavardhan Varma
+<ul>
+  <li><code>.env</code> file is excluded from GitHub for security</li>
+  <li><code>node_modules</code> is ignored using <code>.gitignore</code></li>
+  <li>Dummy lead data is generated using a seed script</li>
+</ul>
 
+<hr/>
 
-## Run these commands **once**:
+<h2 style="color:#1f6feb;">Author</h2>
 
-```bash
-git add README.md
-git commit -m "Add README for assignment"
-git push
+<p>
+<b>Harsha Raju</b>
+</p>
