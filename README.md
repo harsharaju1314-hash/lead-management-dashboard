@@ -44,7 +44,7 @@ http://localhost:5000
 API Example:
 GET /api/leads?page=1&limit=10
 
-Frontend Setup
+## Frontend Setup
 
 cd frontend
 npm install
@@ -60,17 +60,18 @@ Database runs on:
 mongodb://127.0.0.1:27017
 
 
-Notes
+## Notes
 .env file is excluded from GitHub for security
 node_modules is ignored using .gitignore
 Sample data can be added using the seed script
 
-Author
+## Author
 Harshavardhan Varma
 
 
-Run these commands **once**:
+## Run these commands **once**:
 
+```bash
 git add README.md
 git commit -m "Add README for assignment"
 git push
